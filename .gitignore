@@ -1,0 +1,22 @@
+# Virtual environment (large; recreate from requirements.txt instead of committing)
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# PyInstaller build output
+build/
+dist/
+*.spec
+
+# Local test / generated artifacts
+test_*.wav
+
+# OS cruft
+.DS_Store
+Thumbs.db

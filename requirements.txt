@@ -1,0 +1,5 @@
+# Pinned to versions verified working on Python 3.14.
+# faster-whisper pulls in ctranslate2 + av (bundled audio decoder) — no PyTorch,
+# no separate ffmpeg install needed.
+faster-whisper==1.2.1
+gradio==6.26.0
